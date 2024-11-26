@@ -49,6 +49,7 @@ public class MovieMapper {
         return MovieResponse.builder()
                 .id(movie.getId())
                 .title(movie.getTitle())
+                .description(movie.getDescription())
                 .releaseDate(movie.getReleaseDate())
                 .rating(movie.getRating())
                 .categories(categories)
