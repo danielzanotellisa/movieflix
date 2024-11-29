@@ -13,3 +13,13 @@ spring:
 
     flyway:
       enabled: true
+
+movieflix:
+  security:
+    secret: "palavra-secreta"
+
+springdoc:
+  api-docs:
+    path: /api/api-docs
+  swagger-ui:
+    path: /swagger/index.html

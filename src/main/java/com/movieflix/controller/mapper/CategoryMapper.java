@@ -11,7 +11,6 @@ public class CategoryMapper {
     public static Category toCategory(CategoryRequest categoryRequest) {
         return Category.builder()
                 .name(categoryRequest.name())
-                .id(categoryRequest.id())
                 .build();
 
 
